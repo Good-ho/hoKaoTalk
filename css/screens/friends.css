@@ -10,11 +10,6 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
-.friends-screen{
-    margin-left: var(--horizontal-space);
-    margin-right: var(--horizontal-space);
-}
-
 .friends-screen__channel{
     margin-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
