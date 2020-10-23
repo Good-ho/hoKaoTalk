@@ -1,7 +1,5 @@
-.screen-header{    
-    position: fixed;
-    display: flex;
-    width: 100%;
+.screen-header{        
+    display: flex;    
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
