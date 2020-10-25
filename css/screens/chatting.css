@@ -132,3 +132,8 @@
 .reply__column button:active{
     outline: none;
 }
+
+.reply input:focus,
+.reply input:active{
+    outline: none;
+}
