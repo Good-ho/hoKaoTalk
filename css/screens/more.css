@@ -9,6 +9,7 @@
 }
 
 .more-suggestions__title{
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
@@ -37,4 +38,10 @@
 .more-suggestions__icon-image i{
     font-size: 30px;
     color: white;
+}
+
+.more-suggestions__icon-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5)
 }
