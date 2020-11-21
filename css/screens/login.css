@@ -1,60 +1,72 @@
-.wellcom-header{
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.wellcom-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wellcom-header__title{
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: 600;
+.wellcom-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.wellcom-header__text{
-    width: 60%;
-    opacity: 0.7;
-    justify-content: center;
+.wellcom-header__text {
+  width: 60%;
+  opacity: 0.7;
+  justify-content: center;
 }
 
-#login-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
 }
 
-#login-form input{
-    padding: 15px 0px;
-    border: none;
-    font-size: 18px;    
-    margin-bottom: 20px;    
+#login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: var(--main-border);
-    transition: border-color 0.3s ease-in-out;
+  border-bottom: var(--main-border);
+  transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input::placeholder{
-    color: rgba(0, 0, 0, 0.4);;
+#login-form input:not([type="submit"]):focus {
+  box-shadow: var(--iron-bright) 0px 2px 4px 0px,
+    var(--iron-bright) 0px 2px 16px 0px;
 }
 
-#login-form input:focus{
-    outline: none;
-    border-color: var(--yellow);
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
 }
 
-#login-form input[type="submit"]{
-    background-color: var(--yellow);
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 5px;
+#login-form input:focus {
+  outline: none;
+  border-color: var(--iron-drak);
 }
 
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-    font-size: 15px;
+#login-form input[type="submit"] {
+  background-color: var(--iron-drak);
+  cursor: pointer;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#login-form input[type="submit"]:hover {
+  box-shadow: var(--iron-bright) 0px 1px 2px, var(--iron-bright) 0px 2px 4px,
+    var(--iron-bright) 0px 4px 8px, var(--iron-bright) 0px 8px 16px,
+    var(--iron-bright) 0px 16px 32px, var(--iron-bright) 0px 32px 64px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
 }
